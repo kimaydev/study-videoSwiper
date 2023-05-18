@@ -12,6 +12,41 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css" />
 </head>
-<body>    
+<body>
+    <div class="swiper sw-video">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <video muted autoplay preload="auto">
+                    <source src="video/Hit2.mp4" />
+                </video>
+            </div>
+            <div class="swiper-slide">
+                <video muted autoplay preload="auto">
+                    <source src="video/ProjectD.mp4" />
+                </video>
+            </div>
+            <div class="swiper-slide">
+                <video muted autoplay preload="auto">
+                    <source src="video/BlueArchive.mp4" />
+                </video>
+            </div>                        
+            <div class="swiper-slide">
+                <video muted autoplay preload="auto">
+                    <source src="video/ProjectMagnum.mp4" />
+                </video>
+            </div>
+        </div>
+        <!-- video progress bar -->
+        <div class="progress-bar">
+            <div class="bar"></div>
+        </div>
+        <!-- sw-video-pagination -->
+        <div class="sw-video-pagination"></div>
+        <!-- sw-video-btn -->
+        <div class="btn-wrap">
+            <div class="sw-video-btn sw-video-prev"></div>
+            <div class="sw-video-btn sw-video-next"></div>
+        </div>
+    </div>
 </body>
 </html>
